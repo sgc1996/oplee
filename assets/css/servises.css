@@ -1,0 +1,26 @@
+.product-type-box {
+    background-color: #00000073;
+}
+
+.product-type-box li {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+    position: relative;
+    padding-left: 40px;
+    list-style: none;
+    color: rgb(211 211 211);
+}
+
+.product-type-box li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    background-image: url(../images/others/list-icon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

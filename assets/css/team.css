@@ -1,0 +1,28 @@
+.team-area {   
+    display: flex !important;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.box-container {
+    width: 350px;
+}
+
+.team-content {
+    list-style-type: disc;
+}
+
+.team-content li{
+    color: #dbdbdb;
+    line-height: normal;
+    font-size: 0.8em;
+    padding: 5px ;
+}
+
+.team-content .team-content-title {
+    color: rgb(235, 235, 235);
+    line-height: normal;
+    font-size: 1em;
+}
