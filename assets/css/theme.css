@@ -36,7 +36,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f8f8;
   --bs-dark: #000;
-  --bs-primary-rgb: 78, 118, 97;
+  --bs-primary-rgb: 12, 76, 148;
   --bs-secondary-rgb: 171, 171, 171;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -28867,7 +28867,7 @@ textarea.form-control-lg {
 .hero-header-01 .vh-100,
 .hero-header-02 .vh-100,
 .hero-header-05 .vh-100 {
-  height: calc(100vh - 143px) !important;
+  height: calc(100vh) !important;
 }
 
 .hero-header-03 .vh-100 {
@@ -29365,6 +29365,10 @@ svg.icon {
 
 .bg-primary-hover:hover {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-whatsapp-hover:hover {
+  background-color: rgb(37, 211, 102) !important;
 }
 
 .text-primary-hover:hover {
@@ -32785,4 +32789,25 @@ ul.single-product-meta li span:first-child {
 [data-bs-theme="dark"] .hover-bg-color-02:hover,
 [data-bs-theme="dark"] .landing-blog-post-background:hover {
   background-color: var(--bs-section-color-8);
+}
+
+  /* Whatsapp Icon
+--------------------------------*/
+.whatsapp_float {
+  position:fixed;
+  width:50px;
+  height:50px;
+  bottom:75px;
+  right:12px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+        font-size:30px;
+  box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+  margin-top: 0px;
 }
