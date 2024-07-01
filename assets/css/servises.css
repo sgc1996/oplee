@@ -1,5 +1,5 @@
 .product-type-box {
-    background-color: #00000073;
+    background-color: #00000027;
 }
 
 .product-type-box li {
@@ -8,7 +8,7 @@
     position: relative;
     padding-left: 40px;
     list-style: none;
-    color: rgb(211 211 211);
+    color: rgb(236, 236, 236);
 }
 
 .product-type-box li::before {
