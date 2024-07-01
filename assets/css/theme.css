@@ -29092,7 +29092,7 @@ textarea.form-control-lg {
 }
 
 #offCanvasNavBar .megamenu-shop-banner {
-  display: none !important;
+  display: block !important;
 }
 
 #offCanvasNavBar .dropdown-toggle::after {
