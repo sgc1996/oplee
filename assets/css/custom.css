@@ -1,0 +1,29 @@
+.title-img {
+    position: relative;
+    overflow-x: hidden; /* Hide overflow only on the x-axis */
+}
+
+.img-area {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    animation: moving-animation 2s linear infinite alternate;
+    top: 25px;
+    opacity: 0.3;
+    width: 100%; /* Ensure the img-area stays within the container */
+}
+
+.title-img img {
+    position: absolute;
+    top: -35px;
+    z-index: 10;
+}
+
+@keyframes moving-animation {
+    0%{
+        transform: translateX(50px);
+    }
+    100%{
+        transform: translateX(-50px);
+    }
+}
