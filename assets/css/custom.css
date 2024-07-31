@@ -38,3 +38,12 @@
   }
 
 /* Product Page */
+
+/* service list*/
+
+.list-item-title {
+    font-weight: bold;
+}
+.list-group-item {
+    text-align: left;
+}
